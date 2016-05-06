@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+ImageEffects.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UIImage *sourceImage = [UIImage imageNamed:@"1.jpg"];
+    UIImage *lastImage = [sourceImage applyDarkEffect];//一句代码搞定毛玻璃效果
+    
+    
+    imageView.image = lastImage;
+//    self.backimage.userInteractionEnabled = YES;
+    
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {

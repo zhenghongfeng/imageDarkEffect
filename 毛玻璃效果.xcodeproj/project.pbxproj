@@ -15,6 +15,8 @@
 		BAE9EA7A1CDC7C6500771547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE9EA781CDC7C6500771547 /* LaunchScreen.storyboard */; };
 		BAE9EA851CDC7C6500771547 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9EA841CDC7C6500771547 /* _____Tests.m */; };
 		BAE9EA901CDC7C6500771547 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9EA8F1CDC7C6500771547 /* _____UITests.m */; };
+		BAE9EA9F1CDC7CA700771547 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9EA9E1CDC7CA700771547 /* UIImage+ImageEffects.m */; };
+		BAE9EAA11CDC7CC300771547 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE9EAA01CDC7CC300771547 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		BAE9EA8B1CDC7C6500771547 /* 毛玻璃效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "毛玻璃效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE9EA8F1CDC7C6500771547 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		BAE9EA911CDC7C6500771547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE9EA9D1CDC7CA700771547 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		BAE9EA9E1CDC7CA700771547 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		BAE9EAA01CDC7CC300771547 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 		BAE9EA6A1CDC7C6500771547 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAE9EAA01CDC7CC300771547 /* 1.jpg */,
+				BAE9EA9D1CDC7CA700771547 /* UIImage+ImageEffects.h */,
+				BAE9EA9E1CDC7CA700771547 /* UIImage+ImageEffects.m */,
 				BAE9EA6B1CDC7C6500771547 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAE9EA7A1CDC7C6500771547 /* LaunchScreen.storyboard in Resources */,
+				BAE9EAA11CDC7CC300771547 /* 1.jpg in Resources */,
 				BAE9EA771CDC7C6500771547 /* Assets.xcassets in Resources */,
 				BAE9EA751CDC7C6500771547 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE9EA9F1CDC7CA700771547 /* UIImage+ImageEffects.m in Sources */,
 				BAE9EA721CDC7C6500771547 /* ViewController.m in Sources */,
 				BAE9EA6F1CDC7C6500771547 /* AppDelegate.m in Sources */,
 				BAE9EA6C1CDC7C6500771547 /* main.m in Sources */,
